@@ -103,7 +103,8 @@ $ git status可以知道，删除这个**修改**操作没有commit/add，reposi
     $ cd learngit
     $ pwd
     $ git init
-    $ git add readme.txt
+    $ git ls -files #查看管理的文件
+    $ git add readme.txt
     $ git add foldername/. #add指定folder的所以文件
     $ git commit -m "wrote a readme file"
     $ git status #当前状态(modified, not add commit)

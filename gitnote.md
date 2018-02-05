@@ -102,13 +102,13 @@ $ git status可以知道，删除这个**修改**操作没有commit/add，reposi
     $ mkdir learngit
     $ cd learngit
     $ pwd
-    $ git init
-    $ git ls files #查看管理的文件
-    $ git add readme.txt
-    $ git add foldername/. #add指定folder的所以文件
-    $ git add -A
-    $ git commit -m "wrote a readme file"
-    $ git commit -m '单引号可以
+    $ git init  
+    $ git ls files #查看管理的文件    
+    $ git add readme.txt  
+    $ git add foldername/. #add指定folder的所以文件  
+    $ git add -A  
+    $ git commit -m "wrote a readme file"
+    $ git commit -m '单引号可以  
     >注释多行'
     $ git status #当前状态(modified, not add commit)
     $ git diff    #是工作区(work dict)和暂存区(stage)的比较

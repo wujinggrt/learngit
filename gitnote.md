@@ -97,6 +97,7 @@ $ git status可以知道，删除这个**修改**操作没有commit/add，reposi
 命令git rm用于删除一个文件。如果一个文件已经被提交到版本库，那么你永远不用担心误删，但是要小心，你只能恢复文件到最新版本，你会丢失最近一次提交后你修改的内容。  
 
 ## 小结：命令
+```bash
     $ git config --global user.name "Your Name"
     $ git config --global user.email "email@example.com"  
     $ mkdir learngit
@@ -128,6 +129,7 @@ $ git status可以知道，删除这个**修改**操作没有commit/add，reposi
     $ git rm test.txt    #需要commit才会放置到版本库
     $ git rm -rf filename     #remove filefolder
     $ git rm -r filename     #remove file in filefolder
+```
 
 # 远程仓库
 ## github

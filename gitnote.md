@@ -69,6 +69,7 @@
  
 ## 5.撤销修改
     $ git checkout -- readme.txt #放弃对工作区的修改
+    $ git checkout . # all
     $ git reset HEAD file #暂存区的修改撤销掉（unstage），重新放回工作区
 文件已修改，未add到暂存区:  
 git checkout -- file可还原  
